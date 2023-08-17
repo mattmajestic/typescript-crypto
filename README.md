@@ -18,6 +18,6 @@ This app fetches data from the CoinGecko API to display the current prices of cr
 
 ## 🌐 Live Demo
 
-[Check out the live demo](https://your-netlify-app-url.netlify.app)
+[Check out the live demo](https://typescript-crypto.vercel.app/)
 
 Happy coding! 🚀🪙
