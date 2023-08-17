@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #224c75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.85);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+table {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #374151; /* Adjust background color for better contrast */
+  color: white; /* Ensure text is visible on the header background */
+}
+
+tbody tr {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
